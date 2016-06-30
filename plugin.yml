@@ -1,0 +1,14 @@
+name: RealWeatherAndTime
+main: lowbrain.realweatherandtime.weather
+version: 1.0.0
+commands:
+    sync:
+        description: Fetch current weather/time data and update accordingly
+        usage: /<command>
+        permission: <plugin name>.basic
+        permission-message: You don't have <permission>
+    announceTime:
+        description: Announce current time
+        usage: /<command>
+        permission: <plugin name>.basic
+        permission-message: You don't have <permission>
